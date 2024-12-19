@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+:root {
+  --DarkViolet: hsl(256, 26%, 20%);
+  --GrayishBlue: hsl(216, 30%, 68%);
+  --VeryDarkViolet: hsl(270, 9%, 17%);
+  --DarkGrayishViolet: hsl(273, 4%, 51%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+
+  --heading: "DM Serif Display", serif;
+  --body: "Karla", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: var(--body);
+  font-weight: 400;
+}
+
+h1 {
+  font-family: var(--heading);
+  font-weight: 400;
+}
+h2 {
+  font-family: var(--heading);
+  font-weight: 400;
+}
+h3 {
+  font-family: var(--heading);
+  font-weight: 400;
+}
+
+/* hero section start */
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-btn {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--DarkGrayishViolet);
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.p-btn {
+  background-color: black;
+  color: var(--VeryLightGray);
+}
